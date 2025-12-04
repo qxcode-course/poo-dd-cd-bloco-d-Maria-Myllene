@@ -12,14 +12,14 @@ sources:
   type: clone
   branch: master
   cache_path: ''
-  cache_timestamp: '2025-12-02 16:47:28'
+  cache_timestamp: '2025-12-03 12:02:41'
   filters:
   - crud
 expanded:
 - poo@campanha-principal
 - poo@bloco_d-crud-com-mapas-e-enumerações
 tasks:
-  poo@agenda: '{rate:100}'
+  poo@agenda: '{rate:100, iagen:s, alone:3, study:560}'
 flags:
   quests: 0
   tracks: 0
